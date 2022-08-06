@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "AnbimAPI"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius Mesel <bioinfo.vinicius@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.4.3"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+black = "^22.6.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
